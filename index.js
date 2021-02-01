@@ -24,5 +24,7 @@ get isValid(){
   this.second_third = this.second + this.third
   if (this.first_second > this.third && this.first_third >this.second && this.second_third >this.first  )
     return true
+    else
+    return false
 }
 }
