@@ -42,10 +42,11 @@ class Square extends Polygon {
     }
   }
 
-  get area() {
-    if (this.countSides===4){
-      return this.arr[0] *4
-    }
+  
   }
 }
+get area() {
+  if (this.countSides===4){
+    return this.arr[0] *4
+  }
 }
