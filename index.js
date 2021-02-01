@@ -15,4 +15,15 @@ class Polygon {
 
 class Triangle extends Polygon {
 
+  let first= this.arr[0]
+  let second = this.arr[1]
+  let third = this[2]
+
+  let first_second = first + second
+  let first_third = first + third
+  let second_third = second + third
+  if (first_second > thirf || first_third >second || second_third >first  ) {
+    return "valid"
+  }
+
 }
