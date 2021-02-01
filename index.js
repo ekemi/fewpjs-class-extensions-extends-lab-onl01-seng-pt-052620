@@ -22,8 +22,7 @@ get isValid(){
    this.first_second = this.first + this.second
   this.first_third = this.first + this.third
   this.second_third = this.second + this.third
-  if (this.first_second > this.third && this.first_third >this.second && this.second_third >this.first  ) {
+  if (this.first_second > this.third && this.first_third >this.second && this.second_third >this.first  )
     return true
-  }
 }
 }
