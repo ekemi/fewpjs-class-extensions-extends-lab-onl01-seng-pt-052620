@@ -14,8 +14,8 @@ class Polygon {
 }
 
 class Triangle extends Polygon{
-super()
-  this.first= this.arr[0]
+  
+const  first= this.arr[0]
   let second = this.arr[1]
   let third = this[2]
 
