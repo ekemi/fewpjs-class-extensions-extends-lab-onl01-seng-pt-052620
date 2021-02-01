@@ -41,5 +41,11 @@ class Square extends Polygon {
       return false
     }
   }
+
+  get area() {
+    if (this.countSides===4){
+      return this.arr[0] *4
+    }
+  }
 }
 }
