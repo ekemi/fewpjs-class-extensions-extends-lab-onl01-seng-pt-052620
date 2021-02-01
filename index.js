@@ -13,7 +13,7 @@ class Polygon {
   }
 }
 
-class Triangle extends Polygon {
+class Triangle extends Polygon (){
 
   let first= this.arr[0]
   let second = this.arr[1]
