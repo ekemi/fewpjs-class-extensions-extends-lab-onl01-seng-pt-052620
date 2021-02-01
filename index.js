@@ -23,7 +23,7 @@ const  first= this.arr[0]
   let first_third = first + third
   let second_third = second + third
   if (first_second > thirf || first_third >second || second_third >first  ) {
-    return "valid"
+    return true
   }
 }
 }
