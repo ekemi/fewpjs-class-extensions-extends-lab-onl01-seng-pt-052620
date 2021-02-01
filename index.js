@@ -17,7 +17,7 @@ class Triangle extends Polygon{
 get isValid(){
    this.first= this.arr[0]
   this.second = this.arr[1]
-  this.third = this[2]
+  this.third = this.arr[2]
 
    this.first_second = this.first + this.second
   this.first_third = this.first + this.third
