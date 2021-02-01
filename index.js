@@ -15,14 +15,14 @@ class Polygon {
 
 class Triangle extends Polygon{
 get isValid(){
-const  first= this.arr[0]
-  let second = this.arr[1]
-  let third = this[2]
+   this.first= this.arr[0]
+  this.second = this.arr[1]
+  this.third = this[2]
 
-  let first_second = first + second
-  let first_third = first + third
-  let second_third = second + third
-  if (first_second > thirf || first_third >second || second_third >first  ) {
+   this.first_second = this.first + this.second
+  this.first_third = this.first + this.third
+  this.second_third = this.second + this.third
+  if (this.first_second > this.third || this.first_third >this.second || this.second_third >this.first  ) {
     return true
   }
 }
