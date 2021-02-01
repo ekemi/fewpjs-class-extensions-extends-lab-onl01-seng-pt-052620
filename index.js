@@ -14,7 +14,7 @@ class Polygon {
 }
 
 class Triangle extends Polygon{
-
+get isValid(){
 const  first= this.arr[0]
   let second = this.arr[1]
   let third = this[2]
@@ -25,5 +25,5 @@ const  first= this.arr[0]
   if (first_second > thirf || first_third >second || second_third >first  ) {
     return "valid"
   }
-
+}
 }
